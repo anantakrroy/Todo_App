@@ -1,7 +1,7 @@
 // Code goes here
 
 // Simple JS based to-do application with the implementation of Toggle all functionality
-// to toggle todos all at once
+// to toggle todos all at once 
 // Application as part of the course developed by Gordon Zhu from Watch and Code
 
 var todoList = {
