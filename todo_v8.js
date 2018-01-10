@@ -32,12 +32,13 @@ var todoList = {
     });
     this.displayTodo();
   },
-  changeTodo: function(position,item){
+  changeTodo: function(position, item){
     this.todos[position].todoText = item;
     this.displayTodo();
   },
   deleteTodo: function(position){
     this.todos.splice(position,1);
+    this.displayTodo();
   },
   toggleCompleted: function(position){
     var todo = this.todos[position];
@@ -45,7 +46,6 @@ var todoList = {
     this.displayTodo();
   },
   toggleAll: function(){
-    debugger;
     var totalTodos = this.todos.length;
     var completedTodos = 0;
     
@@ -79,5 +79,31 @@ var handlers = {
   
   toggleAll: function() {
       todoList.toggleAll();
+  },
+  
+  addTodo: function() {
+    var addTodoText = document.getElementById("addTodoText");
+    todoList.addTodo(addTodoText.value);
+    addTodoText.value = '';
+  },
+  
+  changeTodo: function() {
+    var changeTodoPos = document.getElementById("changeTodoPos");
+    var changeTodoText =  document.getElementById("changeTodoText");
+    todoList.changeTodo(changeTodoPos.valueAsNumber,changeTodoText.value);
+    changeTodoText.value = '';
+    changeTodoPos.value = '';
+  },
+  
+  deleteTodo: function() {
+    var deleteTodoPos = document.getElementById("deleteTodoPos");
+    todoList.deleteTodo(deleteTodoPos.valueAsNumber);
+    deleteTodoPos.value = '';
+  },
+  
+  toggleTodo: function() {
+    var toggleTodoPos = document.getElementById("toggleTodo");
+    todoList.toggleCompleted(toggleTodoPos.valueAsNumber);
+    toggleTodoPos.value = '';
   }
 }
