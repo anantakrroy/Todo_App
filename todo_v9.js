@@ -30,20 +30,16 @@ var todoList = {
       todoText: item,
       completed: false //show the status of the todo item
     });
-    this.displayTodo();
   },
   changeTodo: function(position, item){
     this.todos[position].todoText = item;
-    this.displayTodo();
   },
   deleteTodo: function(position){
     this.todos.splice(position,1);
-    this.displayTodo();
   },
   toggleCompleted: function(position){
     var todo = this.todos[position];
     todo.completed = !todo.completed;
-    this.displayTodo();
   },
   toggleAll: function(){
     var totalTodos = this.todos.length;
@@ -60,23 +56,17 @@ var todoList = {
       for(var i = 0;i < totalTodos;i++){
         this.todos[i].completed = !this.todos[i].completed;
         }
-      this.displayTodo();
       } 
       // if any is not true then make it true,i.e, make everything true
       else {
         for(var i = 0;i < totalTodos;i++){
         this.todos[i].completed = true;
       }
-      this.displayTodo();
     }
   }
 };
 
 var handlers = {
-  displayTodo: function() {
-    todoList.displayTodo();
-  },
-  
   toggleAll: function() {
       todoList.toggleAll();
   },
