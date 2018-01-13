@@ -1,5 +1,5 @@
 # Todo_App
-Simple JS based todo app as part of the course developed by Gordon Zhu on his website [Watch and Code](http://watchandcode.com)
+Simple JS based todo app as part of the Practical JS course developed by Gordon Zhu on his website [Watch and Code](http://watchandcode.com)
 
 ## Versions of the app
 
@@ -37,6 +37,35 @@ Simple JS based todo app as part of the course developed by Gordon Zhu on his we
     * todoList.addTodo should add a todo object
     * todoList.changeTodo should change the todo text property
     * todoList.toggleCompleted should change the completed property
+    
+  ### Version 6
+   #### Requirements
+    * Implement the toggle all feature
+      * Different scenarios are-
+         * Everything true, make everything false
+         * In any other case,make everything true
+         
+  ### Version 7
+   #### Requirements
+   * There should be display. Todo and toggle all todo buttons
+   * Clicking displayTodo should run todos.displayTodo
+   * Clicking todos.toggleAll shold run todos.toggleAll
+   
+  ### Version 8
+   #### Requirements
+   * There should be display. Todo and toggle all todo buttons
+   * Clicking displayTodo should run todos.displayTodo
+   * Clicking todos.toggleAll shold run todos.toggleAll
+   
+  ### Version 9
+   #### Requirements
+   * Each todo item should be a list item
+   * Each todo item must have the todoText property
+   * Each todo should show the completed property
+
+
+
+
 
 
 
