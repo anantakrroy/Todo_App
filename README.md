@@ -5,45 +5,45 @@ Simple JS based todo app as part of the Practical JS course developed by Gordon 
 
 ### Version 1
    #### Requirements
-    * App should store todos
-    * Should display todos
-    * Should allow to add todos
-    * Allow to change todos
-    * Allow to delete todos
+   * App should store todos
+   * Should display todos
+   * Should allow to add todos
+   * Allow to change todos
+   * Allow to delete todos
     
  ### Version 2
    #### Requirements
-     * Function to display todos
-     * Function to add todos
-     * Functions to change todos
-     * Function to delete todos
+   * Function to display todos
+   * Function to add todos
+   * Functions to change todos
+   * Function to delete todos
      
  ### Version 3
    #### Requirements
-    * Store the todo items in an object
-    * Should have displayTodo method
-    * Have addTodo method
-    * Have changeTodo method
-    * Have deleteTodo method
+   * Store the todo items in an object
+   * Should have displayTodo method
+   * Have addTodo method
+   * Have changeTodo method
+   * Have deleteTodo method
     
  ### Version 4
    #### Requirements
-    * todoList.addTodo should add a todo object
-    * todoList.changeTodo should change the todo text property
-    * todoList.toggleCompleted should change the completed property
+   * todoList.addTodo should add a todo object
+   * todoList.changeTodo should change the todo text property
+   * todoList.toggleCompleted should change the completed property
     
   ### Version 5
    #### Requirements
-    * todoList.addTodo should add a todo object
-    * todoList.changeTodo should change the todo text property
-    * todoList.toggleCompleted should change the completed property
+   * todoList.addTodo should add a todo object
+   * todoList.changeTodo should change the todo text property
+   * todoList.toggleCompleted should change the completed property
     
   ### Version 6
    #### Requirements
-    * Implement the toggle all feature
-      * Different scenarios are-
-         * Everything true, make everything false
-         * In any other case,make everything true
+   * Implement the toggle all feature
+     * Different scenarios are-
+      * Everything true, make everything false
+       * In any other case,make everything true
          
   ### Version 7
    #### Requirements
