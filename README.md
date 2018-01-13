@@ -42,7 +42,7 @@ Simple JS based todo app as part of the Practical JS course developed by Gordon 
    #### Requirements
    * Implement the toggle all feature
      * Different scenarios are-
-      * Everything true, make everything false
+       * Everything true, make everything false
        * In any other case,make everything true
          
   ### Version 7
