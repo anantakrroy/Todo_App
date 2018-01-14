@@ -63,6 +63,13 @@ Simple JS based todo app as part of the Practical JS course developed by Gordon 
    * Each todo item must have the todoText property
    * Each todo should show the completed property
 
+  ### Version 10
+   #### Requirements
+   * There should be a way to create delete buttons
+   * There should be a delete button for each todo
+   * Each *li* shoud have an *id* that has the todo position
+   * Delete buttons should have access to the todo id
+   * Clicking delete should update todoList.todos and the DOM
 
 
 
