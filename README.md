@@ -75,7 +75,12 @@ Simple JS based todo app as part of the Practical JS course developed by Gordon 
    #### Requirements
    * todoList.toggleAll should use forEach
    * view.displayTodo should use forEach
-
+   
+  ### use of the 'this' keyword
+  * In a regular function or no function at all, 'this' refers to the *window* itself. Window is the object which represents the browser       window.
+  * When a function is called as a method, 'this' refers to the object on the left side of the dot.
+  * In a function that is being used as a constructor , 'this' points to the object that the constructor is creating.
+  * When the value of 'this' is explicitly changed using 'bind', 'apply' or 'call', returns a copy of the function where 'this' is set to     the first srgument passed into .bind()
 
 
 
