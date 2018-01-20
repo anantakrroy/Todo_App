@@ -81,6 +81,10 @@ Simple JS based todo app as part of the Practical JS course developed by Gordon 
   * When a function is called as a method, 'this' refers to the object on the left side of the dot.
   * In a function that is being used as a constructor , 'this' points to the object that the constructor is creating.
   * When the value of 'this' is explicitly changed using 'bind', 'apply' or 'call', returns a copy of the function where 'this' is set to     the first srgument passed into .bind()
+      * `bind`- Method on functions. Returns a copy of the function where `this` is set to the first argument passed to the `bind`
+      * Difference between `apply`,`call` and `bind` is that apply and call change the value within the function and run it immediately           whereas bind creates a copy of the function.
+      
+  * In case of a callback function, the above rules need to be applied methodically
 
 
 
